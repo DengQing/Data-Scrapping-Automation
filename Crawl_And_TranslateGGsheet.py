@@ -19,7 +19,7 @@ from selenium.webdriver.chrome.options import Options
 options = Options()
 
 # Path to your chrome profile
-chrome_profile_path = "C:\\Users\\Quynh Nhu\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 1"
+chrome_profile_path = "C:\\Users\\Minh Nhat\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 1"
 options.add_argument("user-data-dir=" + chrome_profile_path)
 
 # Disable automation extension
